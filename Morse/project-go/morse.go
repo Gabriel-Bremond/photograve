@@ -173,6 +173,8 @@ func morse(data string) string {
 		toTranslate = strings.Replace(toTranslate, ch, morsech, -1)
 	}
 
+	toTranslate = strings.TrimSuffix(toTranslate, " ")
+
 	return toTranslate
 }
 
@@ -212,6 +214,8 @@ func demorse(data string) string {
 	// Replace '.' and '-'
 	toTranslate = strings.Replace(toTranslate, "|.|", ".", -1)
 	toTranslate = strings.Replace(toTranslate, "|-|", "-", -1)
+
+	toTranslate = strings.TrimSuffix(toTranslate, " ")
 
 	return toTranslate
 }
