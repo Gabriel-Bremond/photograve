@@ -88,7 +88,7 @@ func printHelp() {
 func printVersion() {
 	fmt.Println("")
 	fmt.Println("Morse CLI:")
-	fmt.Println("Version 1.5")
+	fmt.Println("Version 1.6")
 	fmt.Println("")
 
 	os.Exit(0)
