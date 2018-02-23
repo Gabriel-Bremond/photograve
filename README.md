@@ -35,9 +35,13 @@ v1.5
 - Build with Swift 4.0
 - Make Go version
 
+v1.6
+- Fix endspace char on Go version
+- Add Go version unit tests
+
 ----------
 
-Binary size:
+Binary size (for macOS):
 1. Objective-C version with 30kb
 2. Go version with 2.1Mb
 3. Swift version with 4.4Mb
